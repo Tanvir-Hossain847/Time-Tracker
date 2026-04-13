@@ -1,0 +1,16 @@
+import React from 'react'
+
+export default function Navbar() {
+  return (
+    <div>
+      <div className="">
+        <div className="">
+            <div className=""></div>
+            <div className=""></div>
+            <div className=""></div>
+        </div>
+        <div className=""></div>
+      </div>
+    </div>
+  )
+}
