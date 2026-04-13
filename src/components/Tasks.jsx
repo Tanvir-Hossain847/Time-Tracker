@@ -25,7 +25,7 @@ export default function Tasks() {
           <h2 className="text-muted-foreground mt-0.5">Manage your projects and track progress</h2>
         </div>
         <button
-          className="flex items-center justify-center mr-[10px] rounded-md rotate-45 w-[39.56px] h-[39.56px] bg-primary transition-opacity hover:opacity-80"
+          className="flex items-center justify-center mr-[10px] rounded-md rotate-45 w-[39.56px] h-[39.56px] bg-primary  transition-opacity hover:opacity-80"
           aria-label="Add task"
         >
           <Image src="/plus.svg" alt="add" width={16} height={16} className="p-[2px] -rotate-45"/>
@@ -60,7 +60,7 @@ function TaskRow({ task, first }) {
 
       {/* Left */}
       <div className="flex flex-col gap-0.5 flex-1 min-w-0">
-        <h3 className=" text-foreground">{task.title}</h3>
+        <h3 className=" text-foreground font-medium">{task.title}</h3>
         <h2 className=" text-muted-foreground">{task.category}</h2>
       </div>
 

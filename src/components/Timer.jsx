@@ -50,17 +50,17 @@ export default function Timer() {
 
         <div className="flex flex-col gap-2">
 
-          <div className="flex flex-1 w-[275px] items-center justify-between rounded-md bg-muted-foreground/6 px-4 py-3 transition-colors hover:bg-[#22262d] cursor-pointer">
+          <div className="flex flex-1 w-[275px] items-center justify-between rounded-md bg-muted-foreground/6 px-4 py-3 transition-colors cursor-pointer">
             <h3 className="font-medium">UI/UX Designer</h3>
             <svg className="h-5 w-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
             </svg>
           </div>
 
-          <div className="flex w[275px] items-center justify-between rounded-md bg-muted-foreground/6 px-4 py-3 transition-colors hover:bg-[#22262d] cursor-pointer">
+          <div className="flex w[275px] items-center justify-between rounded-md bg-muted-foreground/6 px-4 py-3 transition-colors cursor-pointer">
             <h2 className="font-medium">Time Tracker Dashboard</h2>
             <svg className="h-5 w-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
             </svg>
           </div>
 
@@ -74,7 +74,7 @@ export default function Timer() {
       <div className="bg-muted-foreground/6 rounded-t-md px-4 py-5 border-b-2 border-sidebar">
         <div className="flex justify-between h-[49px] items-center ">
           <div className="flex gap-3 items-center">
-            <div className="bg-[#223544] w-[46px] h-[46px] grid place-content-center rounded-lg">
+            <div className="bg-chart-2 w-[46px] h-[46px] grid place-content-center rounded-lg">
               <Image src="/Vector.svg" alt="sidebar" width={18} height={18} className="" />
             </div>
             <div className="">
@@ -91,7 +91,7 @@ export default function Timer() {
       <div className="bg-muted-foreground/6 rounded-b-md px-4 py-5">
         <div className="flex justify-between h-[49px] items-center ">
           <div className="flex gap-3 items-center">
-            <div className="bg-[#223544] w-[46px] h-[46px] grid place-content-center rounded-lg">
+            <div className="bg-chart-2 w-[46px] h-[46px] grid place-content-center rounded-lg">
               <Image src="/calander.svg" alt="sidebar" width={18} height={18} className="" />
             </div>
             <div className="">

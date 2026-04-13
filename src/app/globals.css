@@ -50,15 +50,15 @@
 }
 
 :root {
-  --background: #ffffff;       /* app surface / navbar / tasks bg */
+  --background: #F3F4F6;       /* app surface / navbar / tasks bg */
   --foreground: #1a1d2e;       /* primary text */
   --card: #f0f2f7;             /* surface-2 / task cards / timer cards */
   --card-foreground: #1a1d2e;
-  --popover: #ffffff;
+  --popover: #02439F;
   --popover-foreground: #1a1d2e;
-  --primary: #3b5bdb;          /* blue — buttons, active states */
+  --primary: #2bb0f3;          /* blue — buttons, active states */
   --primary-foreground: #ffffff;
-  --secondary: #f0f2f7;        /* timer bg */
+  --secondary: #fff;        /* timer bg */
   --secondary-foreground: #1a1d2e;
   --muted: #e2e5ed;            /* badge bg */
   --muted-foreground: #6b7280; /* secondary text */
@@ -69,7 +69,7 @@
   --input: #d1d5db;
   --ring: #3b5bdb;
   --chart-1: #22c55e;          /* priority low / progress ring (teal alt) */
-  --chart-2: #14b8a6;          /* progress ring teal */
+  --chart-2: #D5EFFD;          
   --chart-3: #f97316;          /* priority medium / orange */
   --chart-4: #3b5bdb;
   --chart-5: #8b92a5;
@@ -84,7 +84,8 @@
   --sidebar-ring: #3b5bdb;
 }
 
-.dark {
+@media (prefers-color-scheme: dark) {
+  :root {
   --background: #101318;       /* navbar + tasks panel bg */
   --foreground: #e8eaf0;       /* primary text */
   --card: #161c2a;             /* task rows + timer inner cards */
@@ -104,7 +105,7 @@
   --input: #1e2a3a;
   --ring: #3b5bdb;
   --chart-1: #22c55e;          /* priority low */
-  --chart-2: #14b8a6;          /* progress ring teal */
+  --chart-2: #223544;          
   --chart-3: #f97316;          /* priority medium */
   --chart-4: #3b5bdb;
   --chart-5: #5a6278;
@@ -117,6 +118,7 @@
   --sidebar-accent-foreground: #e8eaf0;
   --sidebar-border: #1e2a3a;
   --sidebar-ring: #3b5bdb;
+  }
 }
 
 @layer base {
