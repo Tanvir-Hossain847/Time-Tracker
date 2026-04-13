@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
@@ -49,72 +50,73 @@
 }
 
 :root {
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
-  --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
-  --chart-1: oklch(0.87 0 0);
-  --chart-2: oklch(0.556 0 0);
-  --chart-3: oklch(0.439 0 0);
-  --chart-4: oklch(0.371 0 0);
-  --chart-5: oklch(0.269 0 0);
+  --background: #ffffff;       /* app surface / navbar / tasks bg */
+  --foreground: #1a1d2e;       /* primary text */
+  --card: #f0f2f7;             /* surface-2 / task cards / timer cards */
+  --card-foreground: #1a1d2e;
+  --popover: #ffffff;
+  --popover-foreground: #1a1d2e;
+  --primary: #3b5bdb;          /* blue — buttons, active states */
+  --primary-foreground: #ffffff;
+  --secondary: #f0f2f7;        /* timer bg */
+  --secondary-foreground: #1a1d2e;
+  --muted: #e2e5ed;            /* badge bg */
+  --muted-foreground: #6b7280; /* secondary text */
+  --accent: #e2e5ed;
+  --accent-foreground: #1a1d2e;
+  --destructive: #ef4444;      /* red — stop button, high priority, ring-2 */
+  --border: #d1d5db;
+  --input: #d1d5db;
+  --ring: #3b5bdb;
+  --chart-1: #22c55e;          /* priority low / progress ring (teal alt) */
+  --chart-2: #14b8a6;          /* progress ring teal */
+  --chart-3: #f97316;          /* priority medium / orange */
+  --chart-4: #3b5bdb;
+  --chart-5: #8b92a5;
   --radius: 0.625rem;
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.205 0 0);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.97 0 0);
-  --sidebar-accent-foreground: oklch(0.205 0 0);
-  --sidebar-border: oklch(0.922 0 0);
-  --sidebar-ring: oklch(0.708 0 0);
+  --sidebar: #f0f2f7;
+  --sidebar-foreground: #1a1d2e;
+  --sidebar-primary: #3b5bdb;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #e2e5ed;
+  --sidebar-accent-foreground: #1a1d2e;
+  --sidebar-border: #d1d5db;
+  --sidebar-ring: #3b5bdb;
 }
 
 .dark {
-  --background: oklch(0.145 0 0);
-  --foreground: oklch(0.985 0 0);
-  --card: oklch(0.205 0 0);
-  --card-foreground: oklch(0.985 0 0);
-  --popover: oklch(0.205 0 0);
-  --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.922 0 0);
-  --primary-foreground: oklch(0.205 0 0);
-  --secondary: oklch(0.269 0 0);
-  --secondary-foreground: oklch(0.985 0 0);
-  --muted: oklch(0.269 0 0);
-  --muted-foreground: oklch(0.708 0 0);
-  --accent: oklch(0.269 0 0);
-  --accent-foreground: oklch(0.985 0 0);
-  --destructive: oklch(0.704 0.191 22.216);
-  --border: oklch(1 0 0 / 10%);
-  --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.556 0 0);
-  --chart-1: oklch(0.87 0 0);
-  --chart-2: oklch(0.556 0 0);
-  --chart-3: oklch(0.439 0 0);
-  --chart-4: oklch(0.371 0 0);
-  --chart-5: oklch(0.269 0 0);
-  --sidebar: oklch(0.205 0 0);
-  --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: oklch(0.488 0.243 264.376);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.269 0 0);
-  --sidebar-accent-foreground: oklch(0.985 0 0);
-  --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: oklch(0.556 0 0);
+  --background: #101318;       /* navbar + tasks panel bg */
+  --foreground: #e8eaf0;       /* primary text */
+  --card: #161c2a;             /* task rows + timer inner cards */
+  --card-foreground: #e8eaf0;
+  --popover: #161c2a;
+  --popover-foreground: #e8eaf0;
+  --primary: #02439F;          /* blue */
+  --primary-foreground: #ffffff;
+  --secondary: #1B1F27;        /* timer panel bg — darker blue tint */
+  --secondary-foreground: #e8eaf0;
+  --muted: #272C35;            /* badge bg, work-on strip */
+  --muted-foreground: #737B8C; /* secondary text */
+  --accent: #1a2236;
+  --accent-foreground: #e8eaf0;
+  --destructive: #ef4444;      /* red */
+  --border: #1e2a3a;
+  --input: #1e2a3a;
+  --ring: #3b5bdb;
+  --chart-1: #22c55e;          /* priority low */
+  --chart-2: #14b8a6;          /* progress ring teal */
+  --chart-3: #f97316;          /* priority medium */
+  --chart-4: #3b5bdb;
+  --chart-5: #5a6278;
+  --radius: 0.625rem;
+  --sidebar: #161c2a;
+  --sidebar-foreground: #e8eaf0;
+  --sidebar-primary: #3b5bdb;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #1e2535;
+  --sidebar-accent-foreground: #e8eaf0;
+  --sidebar-border: #1e2a3a;
+  --sidebar-ring: #3b5bdb;
 }
 
 @layer base {
@@ -123,8 +125,31 @@
   }
   body {
     @apply bg-background text-foreground;
+    font-family: "Roboto", sans-serif;
   }
   html {
     @apply font-sans;
   }
+}
+
+h4{
+  font-size: 12px;
+}
+
+h1{
+  font-size: 24px;
+}
+
+h2{
+  font-size: 14px;
+}
+
+h3{
+  font-size: 16px;
+}
+
+
+
+.roboto{
+  font-family: "Roboto", sans-serif;
 }
