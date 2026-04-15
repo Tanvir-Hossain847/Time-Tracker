@@ -88,7 +88,7 @@
   :root {
   --background: #101318;       /* navbar + tasks panel bg */
   --foreground: #e8eaf0;       /* primary text */
-  --card: #161c2a;             /* task rows + timer inner cards */
+  --card: #21242C;             /* task rows + timer inner cards */
   --card-foreground: #e8eaf0;
   --popover: #161c2a;
   --popover-foreground: #e8eaf0;
@@ -97,16 +97,16 @@
   --secondary: #1B1F27;        /* timer panel bg — darker blue tint */
   --secondary-foreground: #e8eaf0;
   --muted: #272C35;            /* badge bg, work-on strip */
-  --muted-foreground: #737B8C; /* secondary text */
+  --muted-foreground: #ABB0BA; /* secondary text */
   --accent: #1a2236;
   --accent-foreground: #e8eaf0;
-  --destructive: #ef4444;      /* red */
+  --destructive: #d74242;      /* red */
   --border: #1e2a3a;
   --input: #1e2a3a;
   --ring: #3b5bdb;
-  --chart-1: #22c55e;          /* priority low */
+  --chart-1: #36a17d;          /* priority low */
   --chart-2: #223544;          
-  --chart-3: #f97316;          /* priority medium */
+  --chart-3: #f49d25;          /* priority medium */
   --chart-4: #3b5bdb;
   --chart-5: #5a6278;
   --radius: 0.625rem;
@@ -128,6 +128,8 @@
   body {
     @apply bg-background text-foreground;
     font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-optical-sizing: auto;
   }
   html {
     @apply font-sans;
@@ -143,7 +145,7 @@ h1{
 }
 
 h2{
-  font-size: 14px;
+  font-size: 13.5px;
 }
 
 h3{
@@ -152,6 +154,4 @@ h3{
 
 
 
-.roboto{
-  font-family: "Roboto", sans-serif;
-}
+
