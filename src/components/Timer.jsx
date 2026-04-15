@@ -79,7 +79,7 @@ export default function Timer() {
               </div>
               <div className="mt-1.5 -space-y-0.5">
                 <h5 className="text-[11px] font-medium text-foreground/80 tracking-wide uppercase ">Today</h5>
-                <h5 className="text-[20px]">2h 44m</h5>
+                <h5 className="text-[20px] font-semibold">2h 44m</h5>
               </div>
             </div>
             <Image src="/Green70.svg" alt="70%" width={49} height={49} />
