@@ -1,4 +1,4 @@
-import Navbar from "@/components/Navbar";
+import Navbar from "@/components/Navbar/Navbar";
 import Tasks from "@/components/Tasks";
 import Timer from "@/components/Timer";
 
