@@ -47,12 +47,12 @@ export default function Timer() {
       </div>
 
       {/* Work On Card */}
-      <div className="flex items-center gap-[11px] my-3">
+      <div className="flex items-center gap-2.75 my-3">
         <div className="flex items-center justify-center rounded-sm bg-card px-1.5 py-6">
           <p className="rotate-180 select-none text-[9.5px] text-foreground/75 [writing-mode:vertical-lr]">WORK ON</p>
         </div>
         <div className="flex flex-col gap-3">
-          <div className="flex flex-1 w-[275px] items-center justify-between rounded-sm bg-card px-[12px] py-[9px] cursor-pointer">
+          <div className="flex flex-1 w-68.75 items-center justify-between rounded-sm bg-card px-3 py-2.25 cursor-pointer">
             <h3 className="font-medium">UI/UX Designer</h3>
             <svg className="h-4 w-4 text-muted-foreground" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
@@ -68,11 +68,11 @@ export default function Timer() {
       </div>
 
       {/* Stats */}
-      <div className="w-[312px]">
+      <div className="w-78">
         <div className="bg-card rounded-t-md px-4 py-5 border-b-2 border-sidebar">
-          <div className="flex justify-between h-[49px] items-center">
+          <div className="flex justify-between h-12.25 items-center">
             <div className="flex gap-3.5 items-center">
-              <div className="bg-chart-2 w-[46px] h-[46px] grid place-content-center rounded-lg text-white">
+              <div className="bg-chart-2 w-11.5 h-11.5 grid place-content-center rounded-lg text-white">
                 <svg width="18" height="24" viewBox="0 0 18 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M4.90002 14.2158C5.65779 14.2158 6.38451 13.9108 6.92033 13.368C7.45615 12.8251 7.75717 12.0888 7.75717 11.3211C7.75717 9.72318 7.18574 9.00529 6.61431 7.84739C5.38917 5.36602 6.35831 3.15329 8.90002 0.900024C9.47145 3.79476 11.1857 6.57371 13.4715 8.42634C15.7572 10.279 16.9 12.479 16.9 14.7948C16.9 15.8592 16.6931 16.9131 16.2911 17.8965C15.889 18.8799 15.2997 19.7734 14.5569 20.526C13.814 21.2787 12.9321 21.8757 11.9615 22.283C10.9909 22.6904 9.9506 22.9 8.90002 22.9C7.84945 22.9 6.80916 22.6904 5.83856 22.283C4.86795 21.8757 3.98604 21.2787 3.24317 20.526C2.5003 19.7734 1.91103 18.8799 1.50899 17.8965C1.10695 16.9131 0.900024 15.8592 0.900024 14.7948C0.900024 13.4597 1.39488 12.1386 2.04288 11.3211C2.04288 12.0888 2.3439 12.8251 2.87972 13.368C3.41554 13.9108 4.14226 14.2158 4.90002 14.2158Z" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
